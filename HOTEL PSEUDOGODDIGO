@@ -1,0 +1,12 @@
+Algoritmo Hotel
+	Definir dia Como Real
+	Definir d1 Como Real
+	Definir d2 Como Real
+	Escribir ('Ingrese los dias que espera hospedarse')
+	Leer dia
+	d1 <- dia*950
+	d2 <- d1+250
+	Escribir ('Total a pagar: ')
+	Escribir d2
+FinAlgoritmo
+
