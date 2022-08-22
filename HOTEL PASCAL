@@ -1,0 +1,11 @@
+program hotel;
+var
+d1,d2,dia : Real;
+
+begin
+   Writeln ('Ingrese los dias que espera hospedarse: ');  readln (dia);
+   d1 := dia * 950;
+   d2 := d1 + 250;
+   Writeln (' Total a pagar = ', d2);
+
+end.
