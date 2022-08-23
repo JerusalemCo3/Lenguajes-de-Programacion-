@@ -1,0 +1,16 @@
+program profesor;
+var
+sala, incre, sal, salario : Integer;
+salaa, reciba : Real;
+
+begin
+incre:=1;
+    salario := 3500;
+    salaa:= 0.10* salario  ;
+   while incre>=5 do
+    begin
+
+      reciba:= salario+salaa;
+      Writeln ( reciba );
+    end;
+end.
